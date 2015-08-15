@@ -11,7 +11,3 @@ rvm:
 os:
   - linux
   - osx
-
-addons:
-  code_climate:
-    repo_token: 55cf1cf5e30ba00fac00430a
