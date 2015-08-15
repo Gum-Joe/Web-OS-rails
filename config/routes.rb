@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'control_panel/overview'
+
+  get 'control_panel/stop_start_restart'
+
+  get 'control_panel/modules'
+
+  get 'control_panel/users'
+
+  get 'control_panel/instancesoptions'
+
+  get 'welcome/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
